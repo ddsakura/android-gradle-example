@@ -21,7 +21,7 @@ public class MainActivityFunctionTest extends ActivityInstrumentationTestCase2<M
         solo = new Solo(getInstrumentation(), getActivity());
     }
 
-    public void testPreferenceIsSaved() throws Exception {
+    public void testHelloWorld() throws Exception {
 
         Assert.assertTrue(solo.searchText("Hello world!"));
 
